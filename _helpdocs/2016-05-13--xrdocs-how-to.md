@@ -5,8 +5,8 @@ title: '@xrdocs How-To'
 permalink: /helpdocs/xrdocs-how-to
 author: Akshat Sharma
 excerpt: >-
-  This tutorial provides a walkthrough of the xrdocs platform for blogging, and
-  creating tutorials and techdocs
+  This tutorial provides a walkthrough of the xrdocs platform for
+  creating blogs and tutorials.
 tags:
   - iosxr
   - cisco

@@ -4,7 +4,7 @@ date: '2016-06-10 16:09 -0700'
 title: IOS-XR Vagrant Private Beta
 permalink: /getting-started/iosxr-vagrant-beta
 excerpt: Get Access to IOS-XR Vagrant today!
-author: Cisco Web Team
+author: Cisco xrdocs Team
 ---
 
 {% include base_path %}

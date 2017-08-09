@@ -41,7 +41,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "site-logo.png" # Open Graph/Twitter default site image
+og_image                 : "xrdocs_logo.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -63,8 +63,8 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "Cisco Web Team"
-  avatar           : "cisco-web-team.jpg"
+  name             : "Cisco @xrdocs Team"
+  avatar           : "xrdocs_logo.png"
   bio              : "A Team of coders and network engineers determined to build the best network operating system for Web-Scale Service Providers"
   location         : "San jose, California"
   email            :

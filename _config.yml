@@ -12,8 +12,8 @@ title_short              : "@xrdocs"
 title_separator          : "|"
 name                     : &name "Cisco Systems Inc"
 description              : &description "Documentation, Blogs and Tutorials for all things IOS-XR "
-url                      : "https://xrdocs.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : #"/cloud-scale-networking" # the subpath of your site, e.g. "/blog"
+url                      : https://xrdocs.github.io #"https://xrdocs.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  : "https://github.com/xrdocs/"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
@@ -41,7 +41,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "site-logo.png" # Open Graph/Twitter default site image
+og_image                 : "xrdocs_logo.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -63,8 +63,8 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "Cisco Web Team"
-  avatar           : "cisco-web-team.jpg"
+  name             : "Cisco @xrdocs Team"
+  avatar           : "avatars/xrdocs_logo.png"
   bio              : "A Team of coders and network engineers determined to build the best network operating system for Web-Scale Service Providers"
   location         : "San jose, California"
   email            :

@@ -6,7 +6,7 @@ layout: default
 
     <!-- Carousel
     ================================================== -->
- <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="40000">
+ <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="4000">
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -54,10 +54,10 @@ layout: default
           <img class="third-slide small-screen" src="{{ base_path }}/images/background-3-small.png" alt="Second slide" style="height:100%;width:100%;">
 
           <div class="container">
-            <div class="carousel-caption" style="bottom: 3em;">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            <div class="carousel-caption" style="bottom: 3em; left: 25%; right: 25%;">
+              <h1><b>Looking to Publish?</b></h1>
+              <p style="color: #ffffff;"><b>@xrdocs is completely open-source. Check out our helpdocs and start contributing!</b></p>
+              <a href="{{ base_path }}/helpdocs" class="btn btn--large" style="font-size:0.9em; margin-top:0.5em;"><i class="fa fa-step-forward"></i> Helpdocs</a>
             </div>
           </div>
         </div>
@@ -84,18 +84,18 @@ layout: default
         <div class="col-lg-4" style="margin-left: 3em; margin-right: 3em;">
           <a href="{{ base_path }}/images/iosxr-app-ecosystem.png"><img src="{{ base_path }}/images/iosxr-app-ecosystem.png" alt="Generic placeholder image" style="display: block; margin: 0  auto; max-height: 189px;"></a>
           <div class="page__content" style="text-align:center;">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <a href="{{ base_path }}/application-hosting/tags/#xr-toolbox"><h2>App-Hosting: #xr-toolbox</h2></a>
+          <p>IOS-XR supports Linux applications like iperf, etcd, pipeline etc. running on-box: both natively and inside containers (Docker, LXC).<b>Akshat Sharma</b> explores the application-hosting capabilties in IOS-XR in a tutorial series called <b>#xr-toolbox</b>, all running on Vagrant IOS-XR on the user's laptop</p>
           </div>
-          <p style="text-align:center;"><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <p style="text-align:center;"><a class="btn btn-default" href="{{ base_path }}/application-hosting/tags/#xr-toolbox" role="button">View Details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4" style="margin-left: 3em; margin-right: 3em;">
+        <div class="col-lg-4" style="margin-left: 3em; margin-right: 3em; ">
           <a href="{{ base_path }}/images/telemetry_setup.png"><img src="{{ base_path }}/images/telemetry_setup.png" alt="Generic placeholder image" style="display: block; margin: 0  auto; max-height: 189px;"></a>
           <div class="page__content" style="text-align:center;">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <a href="{{ base_path }}/telemetry/tutorials/"><h2>Streaming Telemetry: MDT </h2></a>
+          <p><b>Shelly Cadora</b> explains Model-Driven Telemetry through a set of fantastic tutorials that detail configuration of MDT using CLI, netconf-yang and YDK while also introducing <a href="https://github.com/cisco/bigmuddy-network-telemetry-pipeline">Pipeline</a>, an open source collector built to work with popular tools for telemetry consumption such as Kafka, Influxdb, ELK and many more.</p>
           </div>
-          <p style="text-align:center;"><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <p style="text-align:center;"><a class="btn btn-default" href="{{ base_path }}/telemetry/tutorials/" role="button">View Details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
@@ -108,9 +108,10 @@ layout: default
       <div class="row featurette">
         <div class="col-md-7">
          <div class="page__content">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <a href="{{ base_path }}/design/blogs/2017-08-01-internet-edge-peering-current-practice/"><h2 class="featurette-heading">Design: Internet Edge Peering</span></h2></a>
+          <p class="lead">The Internet was created to provide transparent data services across interconnected packet switched networks. The interconnection and exchange of Internet routing data between two networks is known as Peering and it represents an important administrative, operational, and security boundary between networks. In this blog, <b>Phil Bedard</b> focuses on the technical aspects of peering covering peering history and current peering architecture in the areas of network, security, and telemetry.</p>
         </div>
+          <p style="text-align:center;"><a class="btn btn-default" href="{{ base_path }}/design/blogs/2017-08-01-internet-edge-peering-current-practice/" role="button">View Details &raquo;</a></p>
         </div>
         <div class="col-md-5">
           <a href="{{ base_path }}/images/peering-design.png"><img class="featurette-image img-responsive center-block" src="{{ base_path }}/images/peering-design.png" data-src="holder.js/500x500/auto" alt="Design  @xrdocs"></a>
@@ -123,9 +124,10 @@ layout: default
       <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
          <div class="page__content">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <a href="{{ base_path }}/software-management/tutorials/2016-08-26-working-with-ztp/"><h2 class="featurette-heading">Software-Management: ZTP</h2></a>
+          <p class="lead">Zero Touch provisioning (ZTP) has become an integral part of the workflow for most Users of IOS-XR. ZTP allows an IOS-XR box to be provisioned without any manual intervention by either running a user-defined script (bash/python) or simply applying a configuration file - all done automatically on boot. <b>Patrick Warichet</b> explains.</p>
          </div>
+          <p style="text-align:center;"><a class="btn btn-default" href="{{ base_path }}/software-management/tutorials/2016-08-26-working-with-ztp/" role="button">View Details &raquo;</a></p>
         </div>
         <div class="col-md-5 col-md-pull-7">
           <a href="{{ base_path }}/images/ztp-flow.png"><img class="featurette-image img-responsive center-block" src="{{ base_path }}/images/ztp-flow.png" data-src="holder.js/500x500/auto" alt="ZTP topology"></a>
@@ -137,12 +139,13 @@ layout: default
       <div class="row featurette">
         <div class="col-md-7">
          <div class="page__content">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <a href=""{{ base_path }}/segment-routing/tutorials/2016-09-27-topology-independent-lfa-ti-lfa/"><h2 class="featurette-heading">Segment-Routing: Failure Protection</h2></a>
+          <p class="lead">The Segment Routing-based fast-reroute solution, TI-LFA, can provide per-destination sub-50msec protection upon any single link, node or SRLG failure regardless the topology. The traffic is rerouted straight to the post-convergence path, hence avoiding any intermediate flap via an intermediate path. The primary and backup path computation is completely automatic by the IGP. <b>Clarence Filsfils</b> and <b>Kris Michielsen</b> dive deeper.</p>
         </div>
+        <p style="text-align:center;"><a class="btn btn-default" href="{{ base_path }}/segment-routing/tutorials/2016-09-27-topology-independent-lfa-ti-lfa/" role="button">View Details &raquo;</a></p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive center-block" src="{{ base_path }}/images/failure_protection.png" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
         </div>
       </div>
 
