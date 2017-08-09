@@ -33,6 +33,9 @@ main:
   - title: "App-Hosting"
     url: "https://xrdocs.github.io/application-hosting"
 
+  - title: "Segment-Routing"
+    url: "https://xrdocs.github.io/segment-routing"
+
   - title: "Programmability"
     url: "https://xrdocs.github.io/programmability"
 

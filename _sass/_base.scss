@@ -372,6 +372,76 @@ nav {
 
 }
 
+.large-screen {
+  display: block;
+}
+
+.medium-screen {
+  display: none;
+} 
+
+.medium-small-screen {
+  display: none;
+}
+ 
+.small-screen {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px){           
+    .large-screen {
+     display: none;
+   }
+
+    .medium-screen {
+     display: block;
+   } 
+
+    .medium-small-screen {
+     display: none;
+   }
+
+   .small-screen {
+     display: none;
+   }
+}
+
+@media only screen and (max-width: 700px){
+    .large-screen {
+     display: none;
+   }
+
+    .medium-screen {
+     display: none;
+   }
+
+    .medium-small-screen {
+     display: block;
+   } 
+
+   .small-screen {
+     display: none;
+   }
+}
+
+@media only screen and (max-width: 500px){
+    .large-screen {
+     display: none;
+   }
+
+    .medium-screen {
+     display: none;
+   }
+
+    .medium-small-screen {
+     display: none;
+   }
+
+   .small-screen {
+     display: block;
+   }
+}
+
 /*
    Global animation transition
    ========================================================================== */
